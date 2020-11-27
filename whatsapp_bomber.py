@@ -1,5 +1,4 @@
-from logging import root
-from os import name
+
 import time
 import tkinter as tk
 from tkinter import *
