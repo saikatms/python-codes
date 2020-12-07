@@ -8,3 +8,5 @@ def recursive_search(dct, target, path=None):
         for key, value in dct.items():
             if isinstance(value, dict):
                 yield from recursive_search(value, target, path+[str(key)])
+for match in recursive_search(data, 'Male'):
+     print(match)
