@@ -1,0 +1,5 @@
+import json
+json_data='[{"Name": "Luke Skywalker", "Affiliation": "Jedi", "Allegiance": ""}, {"Name": "Darth Vader", "Affiliation": "Sith", "Allegiance": ""}, {"Name": "Obi-Wan Kenobi", "Affiliation": "Jedi", "Allegiance": "TO THE REPUBLIC, TO DEMOCRACY!"}, {"Name": "Anakin Skywalker", "Affiliation": "Jedi", "Allegiance": ""}, {"Name": "Yoda", "Affiliation": "Jedi", "Allegiance": ""}, {"Name": "Palpatine", "Affiliation": "Sith", "Allegiance": ""}, {"Name": "Qui-Gon Jinn", "Affiliation": "Jedi", "Allegiance": ""}, {"Name": "Jar Jar Binks", "Affiliation": "N/A", "Allegiance": "Possible Sith"}, {"Name": "Darth Maul", "Affiliation": "Sith", "Allegiance": ""}, {"Name": "Mace Windu", "Affiliation": "Jedi", "Allegiance": ""}, {"Name": "Ki-Adi-Mundi", "Affiliation": "Jedi", "Allegiance": ""}, {"Name": "Kit Fisto", "Affiliation": "Jedi", "Allegiance": ""}, {"Name": "Eeth Koth", "Affiliation": "Jedi", "Allegiance": ""}, {"Name": "Plo Koon", "Affiliation": "Jedi", "Allegiance": ""}, {"Name": "Dooku", "Affiliation": "Sith", "Allegiance": ""}]'
+json_object = json.loads(json_data)
+json_formatted_str = json.dumps(json_object, indent=2)
+print(json_formatted_str)
