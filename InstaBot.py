@@ -5,7 +5,7 @@ class InstaBot:
     def __init__(self,username,password):
         self.username=username
         self.password=password
-        self.driver=webdriver.Chrome(executable_path="LOCATION OF chromedriver.exe file location)
+        self.driver=webdriver.Chrome(executable_path="LOCATION OF chromedriver.exe file location")
     
     def login(self):
         driver=self.driver
